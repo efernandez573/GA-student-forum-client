@@ -1,5 +1,6 @@
 const api = require('./api.js')
 const ui = require('./ui.js')
+const getFormFields = require('../../lib/get-form-fields.js')
 
 const onGetPosts = () => {
   api.getPosts()
@@ -9,5 +10,6 @@ const onGetPosts = () => {
 }
 
 module.exports = {
-  onGetPosts
+  onGetPosts,
+  getFormFields
 }

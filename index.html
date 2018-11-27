@@ -15,7 +15,7 @@
     </head>
     <body>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
+  <a class="navbar-brand" href="#">GA Student Forum</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -25,17 +25,50 @@
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Features</a>
+        <a class="nav-link" href="#">Account</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
+        <a class="nav-link" href="#">Posts</a>
       </li>
     </ul>
   </div>
 </nav>
+<p id = "message"></p>
+
+<form id="sign-up-form" class="border left">
+        <fieldset>
+          <legend>Sign up!</legend>
+          <input type = "text" name = "credentials[email]" placeholder="Email" >
+          <input type = "password" name = "credentials[password]" placeholder="Password" >
+          <input type = "password" name = "credentials[password_confirmation]" placeholder="Confirm Password" >
+          <input id = "sign-up-button" type = "submit"  value = "Sign up!">
+        </fieldset>
+      </form>
+      <form id="sign-in-form" class="border right">
+        <fieldset>
+          <legend>Sign In!</legend>
+          <input type = "text" name = "credentials[email]" placeholder="Email" >
+          <input type = "password" name = "credentials[password]" placeholder="Password" >
+          <input  id = "sign-in-button" type = "submit"  value = "Sign in!">
+
+        </fieldset>
+      </form>
+      <form id="sign-out-form" class="border">
+        <fieldset>
+          <legend>Sign Out!</legend>
+          <input id = "sign-out-button"  type = "submit"  value = "Sign OUT">
+
+        </fieldset>
+      </form>
+      <form id="change-password-form" class="border right">
+        <fieldset>
+          <legend>Change Your Password</legend>
+          <input type = "password" name = "credentials[password]" placeholder="Password" >
+          <input type = "password" name = "credentials[password_confirmation]" placeholder="Confirm Password" >
+          <input  id = "change-pw-button" type = "submit"  value = "Change Password">
+        </fieldset>
+      </form>
+
       <div class="container">
         <h1>Browser Template</h1>
         <div id="content" class="content"></div>
