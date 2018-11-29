@@ -3,7 +3,8 @@
     <head>
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-      <title>Example</title>
+
+      <title>GA Student Forum</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
 
       <!-- Do not add `link` tags-->
@@ -14,25 +15,7 @@
       <script src="public/application.js" type="text/javascript" charset="utf-8" defer></script>
     </head>
     <body>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">GA Student Forum</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Account</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Posts</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+
 <p id = "message"></p>
 
 <form id="sign-up-form" class="border left">
@@ -44,15 +27,16 @@
           <input id = "sign-up-button" type = "submit"  value = "Sign up!">
         </fieldset>
       </form>
+
       <form id="sign-in-form" class="border right">
         <fieldset>
           <legend>Sign In!</legend>
           <input type = "text" name = "credentials[email]" placeholder="Email" >
           <input type = "password" name = "credentials[password]" placeholder="Password" >
           <input  id = "sign-in-button" type = "submit"  value = "Sign in!">
-
         </fieldset>
       </form>
+
       <form id="sign-out-form" class="border">
         <fieldset>
           <legend>Sign Out!</legend>
@@ -69,9 +53,51 @@
         </fieldset>
       </form>
 
+
+<form id="create-post-form" class="border left">
+    <fieldset>
+      <legend>Create Post</legend>
+      <input type = "text" name = "Title" placeholder="Title" >
+      <input type = "text" name = "Link" placeholder="Link" >
+      <input type = "text" name = "Image Url" placeholder="Link to Image" >
+      <input type = "text" name = "Description" placeholder="Description" >
+      <input id = "create-post-button" type = "submit"  value = "Create New Content!">
+    </fieldset>
+</form>
+
+<form id="update-post-form" class="border left">
+    <fieldset>
+      <legend>Update Post</legend>
+      <input type = "text" name = "ID" placeholder="Enter Post ID to Update" >
+      <input type = "text" name = "Title" placeholder="Title" >
+      <input type = "text" name = "Link" placeholder="Link" >
+      <input type = "text" name = "Image Url" placeholder="Link to Image" >
+      <input type = "text" name = "Description" placeholder="Description" >
+      <input id = "update-post-button" type = "submit"  value = "Update Your Post!">
+    </fieldset>
+</form>
+
+<form id="delete-post-form" class="border left">
+  <fieldset>
+    <legend>Delete Post</legend>
+    <input type = "text" name = "ID" placeholder="Enter Post ID to Delete" >
+    <input id = "delete-post-button" type = "submit"  value = "Delete Your Post!">
+  </fieldset>
+</form>
+
+<form id="get-post-form" class="border left">
+  <fieldset>
+    <legend>Get A Post!</legend>
+    <input type = "text" name = "ID" placeholder="Enter Post ID to Retrieve Post" >
+    <input id = "get-post-button" type = "submit"  value = "Get a Post!">
+  </fieldset>
+</form>
+
+
       <div class="container">
-        <h1>Browser Template</h1>
-        <div id="content" class="content"></div>
+
+
+
       </div>
     </body>
 </html>

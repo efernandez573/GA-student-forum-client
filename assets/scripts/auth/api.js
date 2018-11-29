@@ -1,4 +1,5 @@
-const config = require('./config.js')
+const config = require('../config.js')
+const store = require('../store.js')
 
 const signUp = data => {
   return $.ajax({
@@ -19,19 +20,23 @@ const signOut = data => {
     url: config.apiUrl + '/sign-out',
     method: 'DELETE',
     headers: {
-      Authorization: 'Token token='
-    }
+      Authorization: 'Token token=' + store.user.token
+    },
+    data
   })
 }
-// Post specific api calls
-const getPosts = function () {
+const changePassword = function (data) {
   return $.ajax({
-    url: config.apiUrl + '/posts',
-    method: 'GET'
+    url: config.apiUrl + '/change-password',
+    method: 'PATCH',
+    headers: {
+      Authorization: 'Token token=' + store.user.token
+    },
+    data
   })
 }
 module.exports = {
-  getPosts,
+  changePassword,
   signIn,
   signOut,
   signUp
