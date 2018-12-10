@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>GA Student Forum</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <!-- Do not add `link` tags-->
+      <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+      <!-- Do not add `script` tags-->
+      <script src="public/vendor.js" type="text/javascript" charset="utf-8" defer></script>
+      <script src="public/application.js" type="text/javascript" charset="utf-8" defer></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    </head>
+    <body>
+
+<p id = "message"></p>
+
+<form id="sign-up-form" class="border left">
+        <fieldset>
+          <legend>Sign up!</legend>
+          <input type = "email" name = "credentials[email]" placeholder="Email" >
+          <input type = "password" name = "credentials[password]" placeholder="Password" >
+          <input type = "password" name = "credentials[password_confirmation]" placeholder="Confirm Password" >
+          <input id = "sign-up-button" type = "submit"  value = "Sign up!">
+        </fieldset>
+      </form>
+
+      <form id="sign-in-form" class="border right">
+        <fieldset>
+          <legend>Sign In!</legend>
+          <input type = "email" name = "credentials[email]" placeholder="Email" >
+          <input type = "password" name = "credentials[password]" placeholder="Password" >
+          <input  id = "sign-in-button" type = "submit"  value = "Sign in!">
+        </fieldset>
+      </form>
+
+      <form id="sign-out-form" class="border">
+        <fieldset>
+          <legend>Sign Out!</legend>
+          <input id = "sign-out-button"  type = "submit"  value = "Sign OUT">
+
+        </fieldset>
+      </form>
+      <form id="change-password-form" class="border right">
+        <fieldset>
+          <legend>Change Your Password</legend>
+          <input type = "password" name = "passwords[old]" placeholder="Old Password" >
+          <input type = "password" name = "passwords[new]" placeholder="New Password" >
+          <input  id = "change-pw-button" type = "submit"  value = "Change Password">
+        </fieldset>
+      </form>
+
+
+<form id="create-post-form" class="border left ">
+    <fieldset>
+      <legend>Create Post</legend>
+      <input type = "text" name = "post[title]" placeholder="Title" >
+      <input type = "url" name = "post[link]" placeholder="Link" >
+      <input type = "url" name = "post[imgurl]" placeholder="Link to Image" >
+      <input type = "text" name = "post[description]" placeholder="Description" >
+      <input id="create-post-button" type = "submit"  value = "Create New Content!">
+    </fieldset>
+</form>
+
+<form id="update-post-form" class="border left hidden">
+    <fieldset>
+      <legend>Update Post</legend>
+      <input type = "text" name = "post[id]" placeholder="Enter Post ID to Update" >
+      <input type = "text" name = "post[title]" placeholder="Title" >
+      <input type = "url" name = "post[link]" placeholder="Link" >
+      <input type = "url" name = "post[imgurl]" placeholder="Link to Image" >
+      <input type = "text" name = "post[description]" placeholder="Description" >
+      <input type = "submit"  value = "Update Your Post!">
+    </fieldset>
+</form>
+
+<form id="delete-post-form" class="">
+  <fieldset>
+    <legend>Delete Post</legend>
+    <input type = "text" name = "post[id]" placeholder="Enter Post ID to Delete" >
+    <input id = "delete-post-button" type = "submit"  value = "Delete Your Post!">
+  </fieldset>
+</form>
+
+<form id="get-post-form" class="">
+  <fieldset>
+    <legend>Get All Posts!</legend>
+    <!-- <input type = "text" name = "post[id]" placeholder="Enter Post ID to Retrieve Post" > -->
+    <input id = "get-post-button" type = "submit"  value = "Get all Posts!">
+  </fieldset>
+</form>
+
+
+      <div class="container">
+        <div class= "content">
+
+        </div>
+
+      </div>
+    </body>
+</html>
