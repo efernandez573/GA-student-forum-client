@@ -81,7 +81,6 @@ const updatePostSuccess = data => {
 const getPostSuccess = data => {
   $('#message').html('Successfully updated a post')
   const showPostsHtml = showPostsTemplate({posts: data.posts})
-  console.log('data is', showPostsHtml)
   $('.content').html(showPostsHtml)
   // $('#message').append(data)
   $('#message').removeClass('failure')
