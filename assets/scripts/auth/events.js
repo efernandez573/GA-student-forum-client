@@ -44,7 +44,6 @@ const onGetAllPost = () => {
 
 const onCreatePost = event => {
   event.preventDefault()
-  console.log('created post')
   const data = getFormFields(event.target)
   $(event.target).trigger('reset')
   api.createPost(data)
@@ -53,7 +52,6 @@ const onCreatePost = event => {
 }
 const onUpdatePost = event => {
   event.preventDefault()
-  console.log('update post')
   const data = getFormFields(event.target)
   $(event.target).trigger('reset')
   api.updatePost(data)
@@ -62,7 +60,6 @@ const onUpdatePost = event => {
 }
 const onDeletePost = event => {
   event.preventDefault()
-  console.log('delete post')
   const data = getFormFields(event.target)
   api.deletePost(data)
     .then(ui.DeletePostSuccess) // if your request was succesful

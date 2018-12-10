@@ -46,7 +46,6 @@ const getAllPosts = function (data) {
   })
 }
 const createPost = function (data) {
-  console.log(data)
   return $.ajax({
     url: config.apiUrl + '/posts/',
     method: 'POST',
@@ -58,7 +57,6 @@ const createPost = function (data) {
 }
 
 const deletePost = function (data) {
-  console.log(data)
   const id = data.post.id
   // delete data.post.id
   return $.ajax({
@@ -72,7 +70,6 @@ const deletePost = function (data) {
 }
 
 const updatePost = function (data) {
-  console.log(data)
   const id = data.post.id
   // delete data.post.id
   return $.ajax({

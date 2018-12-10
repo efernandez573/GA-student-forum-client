@@ -54,7 +54,6 @@ const createPostSuccess = data => {
 }
 
 const deletePostSuccess = data => {
-  console.log(data)
   store.post = data.post
   $('#message').html('Successfully deleted a post!')
   $('#message').addClass('success')
