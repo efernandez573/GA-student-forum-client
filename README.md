@@ -1,9 +1,14 @@
-Lorem ipsum dolor amet craft beer hammock dreamcatcher skateboard, readymade celiac hot chicken 3 wolf moon food truck distillery meh. Poke gluten-free XOXO tousled, pickled cloud bread chartreuse mumblecore semiotics blog cliche man braid woke. Tofu disrupt live-edge affogato vaporware church-key pinterest ennui biodiesel vegan meh asymmetrical master cleanse before they sold out polaroid. Live-edge butcher unicorn, actually godard keytar austin asymmetrical microdosing skateboard chia drinking vinegar vaporware yr plaid. Cloud bread literally offal ramps heirloom. Trust fund vinyl raw denim skateboard palo santo beard green juice quinoa tattooed enamel pin cred. Before they sold out affogato cold-pressed photo booth church-key bitters iceland street art poke knausgaard kinfolk aesthetic trust fund.
+# GA Student Forum #
 
-Lumbersexual ethical neutra, kogi cray flannel pok pok intelligentsia paleo williamsburg. Retro kale chips chartreuse brooklyn. Cold-pressed trust fund keffiyeh, yr snackwave vape master cleanse shabby chic food truck irony shaman post-ironic tattooed keytar humblebrag. Disrupt gluten-free gochujang portland cloud bread typewriter meh literally distillery hell of. Church-key ramps hoodie, cliche adaptogen sriracha fixie selfies air plant. Sustainable shoreditch austin whatever, taxidermy bicycle rights gluten-free stumptown flexitarian yr photo booth. Actually la croix keytar gluten-free.
+GA Student Forum is a platform for uploading content that users found useful in **learning a new technology/skill**. Users can **upload links** and **screenshots** to tutorials/articles/ with information that was helpful for them to learn these new skills. This is particularly important in the context of a bootcamp because there are so many new technologies that are learned. This app can also be translated to any platform or organization in that most organizations need a space to guide their employees when working on a team with people of various skill levels. My goal for this application was to **create a space online** where people within my cohort could have a **one stop shop** for uploading content that they found useful.
 
-La croix waistcoat flexitarian shaman street art tumeric bushwick whatever vexillologist succulents irony. Messenger bag migas vaporware portland cornhole yuccie franzen art party meh typewriter pork belly microdosing four dollar toast. Cronut dreamcatcher roof party, distillery master cleanse hella PBR&B retro pug four loko normcore sartorial chartreuse leggings intelligentsia. Gluten-free vaporware semiotics squid, intelligentsia vice godard brooklyn unicorn trust fund kombucha. Seitan 8-bit truffaut ramps bushwick hoodie. Roof party chillwave whatever intelligentsia man braid pinterest direct trade shaman messenger bag church-key before they sold out ennui.
+**Links**
 
-Forage cardigan PBR&B photo booth. Gluten-free VHS mustache pinterest tbh. Gluten-free meggings put a bird on it tattooed fingerstache craft beer. Af actually farm-to-table next level shabby chic +1 poke taiyaki kogi banh mi. Sustainable single-origin coffee YOLO pop-up swag knausgaard you probably haven't heard of them 3 wolf moon microdosing VHS leggings deep v pork belly lomo art party. Occupy hammock tote bag vaporware.
-
-Kinfolk before they sold out trust fund fashion axe, tousled chillwave food truck. Pabst hashtag XOXO, bitters put a bird on it roof party slow-carb selvage yuccie hella copper mug hexagon vexillologist. Ennui whatever scenester, everyday carry lo-fi YOLO portland prism snackwave biodiesel messenger bag thundercats. Helvetica you probably haven't heard of them iceland, brunch messenger bag tattooed PBR&B. Fixie waistcoat pinterest, umami butcher squid marfa meggings drinking vinegar taiyaki vice bespoke cray four loko.
+- https://ga-student-forum.herokuapp.com/
+- -deployed heroku server-
+- https://efernandez573.github.io/GA-student-forum-client/
+- -deployed github client-
+- https://github.com/efernandez573/GA-student-forum-client.git
+- github repository for client-
+- https://github.com/efernandez573/GA-student-forum.git
+- github repository for server-
